@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { DepartmentsComponent } from './departments/departments.component';
 import { AcademicsComponent } from './academics/academics.component';
 import { FacilitiesComponent } from './facilities/facilities.component';
 import { ContactComponent } from './contact/contact.component';
@@ -92,6 +93,7 @@ import {
   ],
   declarations: [
     AppComponent,
+    DepartmentsComponent,
     AcademicsComponent,
     FacilitiesComponent,
     ContactComponent,
