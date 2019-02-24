@@ -7,6 +7,10 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { AcademicsComponent } from './academics/academics.component';
+import { FacilitiesComponent } from './facilities/facilities.component';
+import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { A11yModule } from '@angular/cdk/a11y';
@@ -89,7 +93,11 @@ import {
   declarations: [
     AppComponent,
     AcademicsComponent,
+    FacilitiesComponent,
+    ContactComponent,
+    LoginComponent,
     HomeComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
