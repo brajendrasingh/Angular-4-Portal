@@ -1,0 +1,8 @@
+.my-card {
+    max-width: 400px;
+  }
+  
+  .header-image {
+    background-image: url('src/app/assets/images/B.png');
+    background-size: cover;
+  }
