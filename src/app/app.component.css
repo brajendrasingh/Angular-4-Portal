@@ -1,3 +1,13 @@
 .container{
     padding: 10px 10px 10px 10px
 }
+.footer {
+    position: fixed;
+    height: 50px;
+    background-color:#F3F3F3;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
