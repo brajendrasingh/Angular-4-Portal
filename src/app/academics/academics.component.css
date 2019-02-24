@@ -3,6 +3,6 @@
   }
   
   .header-image {
-    background-image: url('src/app/assets/images/B.png');
+    background-image: url('../../assets/images/B.png');
     background-size: cover;
   }
