@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+ sms-ui-service:
+  container_name: sms-ui-service
+  image: 'sms-ui:1.0'
+  port:
+   - '4200:80'
