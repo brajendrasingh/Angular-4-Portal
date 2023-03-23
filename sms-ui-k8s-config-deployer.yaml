@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sms-ui
+spec:
+  type: ClusterIP
+  selector:
+    ui: sms-ui
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 4200
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sms-ui
+  labels:
+    app: web
+spec:
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+       —name: sms-ui
+          image: sms:1.0
+          ports:
+           —containerPort: 80
