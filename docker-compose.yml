@@ -3,5 +3,8 @@ services:
  sms-ui-service:
   container_name: sms-ui-service
   image: 'sms-ui:1.0'
-  port:
+  mem_limit: 150mb
+  cpus: 0.5
+  restart: always
+  ports:
    - '4200:80'
